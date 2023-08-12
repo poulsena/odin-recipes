@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(25, 39, 54);
+    color: white;
+}
+nav {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav h1 {
+    font-size: 32px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    padding: 16px;
+    border: 2px black solid;
+    color: white;
+}
+
+.list a {
+    color: white;
+    text-decoration: underline;
+}
+
+.list a:hover {
+    text-decoration: none;
+}
+
+.display-image {
+    width: calc(40% + 36px);
+    display: block;
+    margin: 0 auto;
+}
